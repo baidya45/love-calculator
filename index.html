@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love calculator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./icon.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>welcome ! to love calculator</h1>
+    </header>
+    <div class="card">
+        <div class="header">
+            check your love
+        </div>
+        <div class="data-section">
+            <div class="name">
+                <input type="text" name="myname" placeholder="your name" id="myname">
+                <p>&#10084;</p>
+            <input type="text" name="lovename" placeholder="love name" id="lovename">
+            </div>
+            <label for="age">your age:- 
+                <input type="number" name="age" placeholder="your age" id="age">
+            </label>
+            <p>how long you know each other :- <input type="number" placeholder="in monthes" id="time"></p>
+            <button id="check" onclick="calculate()">calculate</button>
+            <p id="result"></p>
+
+        </div>
+    </div>
+    <p id="nb">
+        N.B : only for 16+ and relation should be atleast 6 monthes long.
+    </p>
+    
+</body>
+<script src="./script.js" type="text/javascript"></script>
+</html>

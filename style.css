@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+header{
+
+    position: relative;
+    top: 10vh;
+    text-align:center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+}
+
+.card{
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 30vh;
+    /* right: 30vw; */
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 0.32rem;
+}
+.card .header{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: crimson;
+    color: white;
+    font-family: cursive;
+    font-size: 1.6rem;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.name input{
+    width: 40%;
+}
+
+.data-section{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-family: 'Vujahday Script', cursive;
+}
+.data-section input{
+    font-family: cursive;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 4px 0 5px 0;
+    border-radius: 0.28rem;
+    border:none;
+}
+#age{
+    width: 25%;
+}
+#time{
+    width: 30%;
+}
+
+#check{
+    border: none;
+    background-color: crimson;
+    line-height: 1.8rem;
+    width: 25%;
+    margin: auto;
+    font-family: 'Vujahday Script', cursive;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+
+    
+}
+
+#result{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellow;
+}
+#nb{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-family: cursive;
+}
