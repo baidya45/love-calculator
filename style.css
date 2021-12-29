@@ -98,8 +98,8 @@ header{
 }
 #nb{
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 50px;
+    left: 30px;
     color: white;
     font-family: cursive;
 }
@@ -118,6 +118,6 @@ header{
 }
 @media(max-width:520px){
     html{
-        font-size: 10px;
+        font-size: 14px;
     }
 }
