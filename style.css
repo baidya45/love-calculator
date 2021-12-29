@@ -139,6 +139,7 @@ header h1{
     }
     #nb{
         bottom: 20px;
+        font-size: 0.75rem;
     }
     #check{
         font-size: 2rem;
