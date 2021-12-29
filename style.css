@@ -120,4 +120,7 @@ header{
     html{
         font-size: 14px;
     }
+    #nb{
+        bottom: 100px;
+    }
 }
